@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/BgImage.png") no-repeat center;
+    background: url("images/BackgroundImage.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -267,7 +267,7 @@ section .title::after{
 .projects .title::after,
 .experience .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what i did";
 }
 .projects .proj-content .card{
     width: calc(33% - 20px);
@@ -378,7 +378,7 @@ section .title::after{
 
 /* experience section styling */
 .experience .title::after{
-    content: "what I do";
+    content: "what i do";
 }
 .experience .carousel .card{
     background: #222;
