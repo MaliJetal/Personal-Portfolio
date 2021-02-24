@@ -69,12 +69,12 @@ $(document).ready(function(){
             }
         }
     });
-
-    $('#submitid').click(function() {
-        $('#msgid').attr('action',
-            'mailto:malijetal1091&commat;gmail&period;com?subject=' +
-            $('#subjid').val() + '&body=' + $('#nameid').val() + ' ' + $('#messageid').val());
-        $('#msgid').submit();
-    });
-
+	
+	$('#submitid').attr('href', 
+		'mailto:malijetal1091@gmail.com?subject=' + $('#subjid').val() + '&body=' +  $('#nameid').val()
+	);
+	
+	$('#buttonid').click(function() {
+		alert('gfh');
+	});
 });
